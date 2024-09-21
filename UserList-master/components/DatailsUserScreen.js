@@ -1,7 +1,7 @@
 import { useState } from "react";
 import * as React from 'react';
 import { View, StyleSheet } from "react-native";
-import { Card, Text, Title } from "react-native-paper";
+import { Card, Text } from "react-native-paper";
 import Users from "../data/Users";
 
 const getUserForId = (id) => {

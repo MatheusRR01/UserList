@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, SafeAreaView, FlatList, StyleSheet, Image, StatusBar } from 'react-native';
+import { View, FlatList, StyleSheet, Image, StatusBar } from 'react-native';
 
-import { Button, List } from 'react-native-paper'
+import { List } from 'react-native-paper'
 import Users from '../data/Users'
 
 export default props => {
